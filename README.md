@@ -3,7 +3,7 @@
 <br>4-byte length | string payload of the prefixed length
  
 # Goal
-* Create two python programs, client and server
+* Create two python programs, client `socket_client.py` and server `socket_server.py`
 * The client sends a message of the above format
 * The server gets the payload, prints it to screen and replies with a message of the above format
 * The client receives the payload and prints it to screen
